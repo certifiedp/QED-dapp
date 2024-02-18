@@ -6,6 +6,11 @@ edition = "2021"
 
 
 [dependencies]
+actix-web = "4.0"
+uuid = { version = "1.0", features = ["v4", "serde"] }
+reqwest = "0.11"
+tokio = { version = "1", features = ["full"] }
+serde_derive = "1.0"
 plonky2 = { git = "https://github.com/mir-protocol/plonky2", rev = "3de92d9ed1721cec133e4e1e1b3ec7facb756ccf", default-features = false, features = ["std"] }
 plonky2_util = { git = "https://github.com/mir-protocol/plonky2", rev = "3de92d9ed1721cec133e4e1e1b3ec7facb756ccf", default-features = false }
 plonky2_ecdsa = { git = "https://github.com/cf/plonky2-ecdsa", rev = "1fd71d5f5deec382ac192f4ce28764996f8e6085", default-features = false  }
