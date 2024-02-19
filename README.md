@@ -1,4 +1,4 @@
-# Simple rollup example for Stanford Tree Hacks
+# Recursive Zero-Knowledge Succient Proof -- Tree Hacks 2024
 
 https://qedprotocol.com ❤️ Hackers
 
